@@ -1,0 +1,338 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_triangle",
+  "meta": {
+    "title": "3–4–5 right triangle",
+    "subject": "mathematics",
+    "topic": "triangle geometry",
+    "locale": "en",
+    "difficulty": 1
+  },
+  "viewport": {
+    "worldBounds": {
+      "x": -1.2,
+      "y": -1.2,
+      "width": 7.4,
+      "height": 6.4
+    },
+    "yUp": true,
+    "background": "#F8FAFC"
+  },
+  "root": {
+    "type": "group",
+    "id": "scene",
+    "children": [
+      {
+        "type": "component",
+        "id": "axes",
+        "component": "cartesian-axes",
+        "params": {
+          "xMin": 0.0,
+          "xMax": 6.0,
+          "yMin": 0.0,
+          "yMax": 5.0,
+          "step": 1.0,
+          "grid": true,
+          "labels": false
+        }
+      },
+      {
+        "type": "line",
+        "id": "side-ab",
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 4.0,
+        "y2": 0.0,
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 0.06
+        },
+        "elementId": "side-ab",
+        "hit": {
+          "type": "rect",
+          "x": 0.0,
+          "y": -0.18,
+          "width": 4.0,
+          "height": 0.36
+        }
+      },
+      {
+        "type": "line",
+        "id": "side-bc",
+        "x1": 4.0,
+        "y1": 0.0,
+        "x2": 0.0,
+        "y2": 3.0,
+        "style": {
+          "stroke": "#16A34A",
+          "strokeWidth": 0.06
+        },
+        "elementId": "side-bc",
+        "hit": {
+          "type": "rect",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 4.0,
+          "height": 3.0
+        }
+      },
+      {
+        "type": "line",
+        "id": "side-ca",
+        "x1": 0.0,
+        "y1": 3.0,
+        "x2": 0.0,
+        "y2": 0.0,
+        "style": {
+          "stroke": "#7C3AED",
+          "strokeWidth": 0.06
+        },
+        "elementId": "side-ca",
+        "hit": {
+          "type": "rect",
+          "x": -0.18,
+          "y": 0.0,
+          "width": 0.36,
+          "height": 3.0
+        }
+      },
+      {
+        "type": "rect",
+        "id": "right-angle",
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.45,
+        "height": 0.45,
+        "style": {
+          "stroke": "#94A3B8",
+          "strokeWidth": 0.035
+        }
+      },
+      {
+        "type": "circle",
+        "id": "vertex-a",
+        "x": 0.0,
+        "y": 0.0,
+        "radius": 0.12,
+        "style": {
+          "fill": "#0F172A"
+        },
+        "elementId": "vertex-a",
+        "hit": {
+          "type": "circle",
+          "x": 0.0,
+          "y": 0.0,
+          "radius": 0.4
+        },
+        "zIndex": 5
+      },
+      {
+        "type": "circle",
+        "id": "vertex-b",
+        "x": 4.0,
+        "y": 0.0,
+        "radius": 0.12,
+        "style": {
+          "fill": "#0F172A"
+        },
+        "elementId": "vertex-b",
+        "hit": {
+          "type": "circle",
+          "x": 4.0,
+          "y": 0.0,
+          "radius": 0.4
+        },
+        "zIndex": 5
+      },
+      {
+        "type": "circle",
+        "id": "vertex-c",
+        "x": 0.0,
+        "y": 3.0,
+        "radius": 0.12,
+        "style": {
+          "fill": "#0F172A"
+        },
+        "elementId": "vertex-c",
+        "hit": {
+          "type": "circle",
+          "x": 0.0,
+          "y": 3.0,
+          "radius": 0.4
+        },
+        "zIndex": 5
+      },
+      {
+        "type": "text",
+        "id": "lbl-a",
+        "x": -0.4,
+        "y": -0.18,
+        "text": "A",
+        "fontSize": 0.34,
+        "style": {
+          "fill": "#0F172A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-b",
+        "x": 4.1,
+        "y": -0.18,
+        "text": "B",
+        "fontSize": 0.34,
+        "style": {
+          "fill": "#0F172A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-c",
+        "x": -0.45,
+        "y": 3.14,
+        "text": "C",
+        "fontSize": 0.34,
+        "style": {
+          "fill": "#0F172A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-ab",
+        "x": 1.9,
+        "y": -0.35,
+        "text": "4",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#2563EB"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-bc",
+        "x": 2.15,
+        "y": 1.75,
+        "text": "5",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#16A34A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-ca",
+        "x": -0.55,
+        "y": 1.45,
+        "text": "3",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#7C3AED"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-right",
+        "x": 0.55,
+        "y": 0.8,
+        "text": "90°",
+        "fontSize": 0.26,
+        "style": {
+          "fill": "#94A3B8"
+        }
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "vertex-a",
+      "label": "Vertex A",
+      "explanationId": "exp_va"
+    },
+    {
+      "id": "vertex-b",
+      "label": "Vertex B",
+      "explanationId": "exp_vb"
+    },
+    {
+      "id": "vertex-c",
+      "label": "Vertex C",
+      "explanationId": "exp_vc"
+    },
+    {
+      "id": "side-ab",
+      "label": "Side AB",
+      "explanationId": "exp_ab"
+    },
+    {
+      "id": "side-bc",
+      "label": "Side BC",
+      "explanationId": "exp_bc"
+    },
+    {
+      "id": "side-ca",
+      "label": "Side CA",
+      "explanationId": "exp_ca"
+    }
+  ],
+  "explanations": [
+    {
+      "id": "exp_va",
+      "title": "Vertex A and the right angle",
+      "body": "A is the corner where sides AB and CA meet. The small square marks a 90° right angle, making ABC a right triangle.",
+      "relatedElements": [
+        "side-ab",
+        "side-ca"
+      ]
+    },
+    {
+      "id": "exp_vb",
+      "title": "Vertex B",
+      "body": "B joins the horizontal side AB with the hypotenuse BC.",
+      "relatedElements": [
+        "side-ab",
+        "side-bc"
+      ]
+    },
+    {
+      "id": "exp_vc",
+      "title": "Vertex C",
+      "body": "C joins the vertical side CA with the hypotenuse BC.",
+      "relatedElements": [
+        "side-ca",
+        "side-bc"
+      ]
+    },
+    {
+      "id": "exp_ab",
+      "title": "Side AB = 4",
+      "body": "The horizontal leg from A to B has length 4.",
+      "relatedElements": [
+        "vertex-a",
+        "vertex-b"
+      ]
+    },
+    {
+      "id": "exp_bc",
+      "title": "Side BC = 5 (hypotenuse)",
+      "body": "The hypotenuse is opposite the right angle. Its length follows from the Pythagorean theorem: 3² + 4² = 5².",
+      "relatedElements": [
+        "side-ab",
+        "side-ca"
+      ],
+      "keyTerms": [
+        {
+          "term": "hypotenuse",
+          "explanationId": "exp_ab"
+        }
+      ]
+    },
+    {
+      "id": "exp_ca",
+      "title": "Side CA = 3",
+      "body": "The vertical leg from C to A has length 3. Together 3, 4 and 5 form a Pythagorean triple.",
+      "relatedElements": [
+        "vertex-c",
+        "vertex-a"
+      ]
+    }
+  ]
+}

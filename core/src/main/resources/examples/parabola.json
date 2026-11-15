@@ -1,0 +1,768 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_parabola",
+  "meta": {
+    "title": "Parabola and its roots",
+    "subject": "mathematics",
+    "topic": "quadratic functions",
+    "locale": "en",
+    "difficulty": 2
+  },
+  "viewport": {
+    "worldBounds": {
+      "x": -4.5,
+      "y": -5.0,
+      "width": 9.0,
+      "height": 12.0
+    },
+    "yUp": true,
+    "background": "#F8FAFC"
+  },
+  "root": {
+    "type": "group",
+    "id": "scene",
+    "children": [
+      {
+        "type": "component",
+        "id": "axes",
+        "component": "cartesian-axes",
+        "params": {
+          "xMin": -4.0,
+          "xMax": 4.0,
+          "yMin": -5.0,
+          "yMax": 7.0,
+          "step": 1.0,
+          "grid": true,
+          "labels": true
+        }
+      },
+      {
+        "type": "group",
+        "id": "parabola-curve",
+        "children": [
+          {
+            "type": "line",
+            "id": "curve-0",
+            "x1": -3.3,
+            "y1": 6.89,
+            "x2": -3.15,
+            "y2": 5.9225,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-1",
+            "x1": -3.15,
+            "y1": 5.9225,
+            "x2": -3.0,
+            "y2": 5.0,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-2",
+            "x1": -3.0,
+            "y1": 5.0,
+            "x2": -2.85,
+            "y2": 4.1225,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-3",
+            "x1": -2.85,
+            "y1": 4.1225,
+            "x2": -2.7,
+            "y2": 3.29,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-4",
+            "x1": -2.7,
+            "y1": 3.29,
+            "x2": -2.55,
+            "y2": 2.5025,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-5",
+            "x1": -2.55,
+            "y1": 2.5025,
+            "x2": -2.4,
+            "y2": 1.76,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-6",
+            "x1": -2.4,
+            "y1": 1.76,
+            "x2": -2.25,
+            "y2": 1.0625,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-7",
+            "x1": -2.25,
+            "y1": 1.0625,
+            "x2": -2.1,
+            "y2": 0.41,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-8",
+            "x1": -2.1,
+            "y1": 0.41,
+            "x2": -1.95,
+            "y2": -0.1975,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-9",
+            "x1": -1.95,
+            "y1": -0.1975,
+            "x2": -1.8,
+            "y2": -0.76,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-10",
+            "x1": -1.8,
+            "y1": -0.76,
+            "x2": -1.65,
+            "y2": -1.2775,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-11",
+            "x1": -1.65,
+            "y1": -1.2775,
+            "x2": -1.5,
+            "y2": -1.75,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-12",
+            "x1": -1.5,
+            "y1": -1.75,
+            "x2": -1.35,
+            "y2": -2.1775,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-13",
+            "x1": -1.35,
+            "y1": -2.1775,
+            "x2": -1.2,
+            "y2": -2.56,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-14",
+            "x1": -1.2,
+            "y1": -2.56,
+            "x2": -1.05,
+            "y2": -2.8975,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-15",
+            "x1": -1.05,
+            "y1": -2.8975,
+            "x2": -0.9,
+            "y2": -3.19,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-16",
+            "x1": -0.9,
+            "y1": -3.19,
+            "x2": -0.75,
+            "y2": -3.4375,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-17",
+            "x1": -0.75,
+            "y1": -3.4375,
+            "x2": -0.6,
+            "y2": -3.64,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-18",
+            "x1": -0.6,
+            "y1": -3.64,
+            "x2": -0.45,
+            "y2": -3.7975,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-19",
+            "x1": -0.45,
+            "y1": -3.7975,
+            "x2": -0.3,
+            "y2": -3.91,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-20",
+            "x1": -0.3,
+            "y1": -3.91,
+            "x2": -0.15,
+            "y2": -3.9775,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-21",
+            "x1": -0.15,
+            "y1": -3.9775,
+            "x2": -0.0,
+            "y2": -4.0,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-22",
+            "x1": -0.0,
+            "y1": -4.0,
+            "x2": 0.15,
+            "y2": -3.9775,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-23",
+            "x1": 0.15,
+            "y1": -3.9775,
+            "x2": 0.3,
+            "y2": -3.91,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-24",
+            "x1": 0.3,
+            "y1": -3.91,
+            "x2": 0.45,
+            "y2": -3.7975,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-25",
+            "x1": 0.45,
+            "y1": -3.7975,
+            "x2": 0.6,
+            "y2": -3.64,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-26",
+            "x1": 0.6,
+            "y1": -3.64,
+            "x2": 0.75,
+            "y2": -3.4375,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-27",
+            "x1": 0.75,
+            "y1": -3.4375,
+            "x2": 0.9,
+            "y2": -3.19,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-28",
+            "x1": 0.9,
+            "y1": -3.19,
+            "x2": 1.05,
+            "y2": -2.8975,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-29",
+            "x1": 1.05,
+            "y1": -2.8975,
+            "x2": 1.2,
+            "y2": -2.56,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-30",
+            "x1": 1.2,
+            "y1": -2.56,
+            "x2": 1.35,
+            "y2": -2.1775,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-31",
+            "x1": 1.35,
+            "y1": -2.1775,
+            "x2": 1.5,
+            "y2": -1.75,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-32",
+            "x1": 1.5,
+            "y1": -1.75,
+            "x2": 1.65,
+            "y2": -1.2775,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-33",
+            "x1": 1.65,
+            "y1": -1.2775,
+            "x2": 1.8,
+            "y2": -0.76,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-34",
+            "x1": 1.8,
+            "y1": -0.76,
+            "x2": 1.95,
+            "y2": -0.1975,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-35",
+            "x1": 1.95,
+            "y1": -0.1975,
+            "x2": 2.1,
+            "y2": 0.41,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-36",
+            "x1": 2.1,
+            "y1": 0.41,
+            "x2": 2.25,
+            "y2": 1.0625,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-37",
+            "x1": 2.25,
+            "y1": 1.0625,
+            "x2": 2.4,
+            "y2": 1.76,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-38",
+            "x1": 2.4,
+            "y1": 1.76,
+            "x2": 2.55,
+            "y2": 2.5025,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-39",
+            "x1": 2.55,
+            "y1": 2.5025,
+            "x2": 2.7,
+            "y2": 3.29,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-40",
+            "x1": 2.7,
+            "y1": 3.29,
+            "x2": 2.85,
+            "y2": 4.1225,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-41",
+            "x1": 2.85,
+            "y1": 4.1225,
+            "x2": 3.0,
+            "y2": 5.0,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-42",
+            "x1": 3.0,
+            "y1": 5.0,
+            "x2": 3.15,
+            "y2": 5.9225,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          },
+          {
+            "type": "line",
+            "id": "curve-43",
+            "x1": 3.15,
+            "y1": 5.9225,
+            "x2": 3.3,
+            "y2": 6.89,
+            "style": {
+              "stroke": "#2563EB",
+              "strokeWidth": 0.06
+            }
+          }
+        ],
+        "elementId": "parabola"
+      },
+      {
+        "type": "circle",
+        "id": "root-neg",
+        "x": -2.0,
+        "y": 0.0,
+        "radius": 0.14,
+        "style": {
+          "fill": "#DC2626"
+        },
+        "elementId": "root-a",
+        "hit": {
+          "type": "circle",
+          "x": -2.0,
+          "y": 0.0,
+          "radius": 0.42
+        },
+        "zIndex": 5
+      },
+      {
+        "type": "circle",
+        "id": "root-pos",
+        "x": 2.0,
+        "y": 0.0,
+        "radius": 0.14,
+        "style": {
+          "fill": "#DC2626"
+        },
+        "elementId": "root-b",
+        "hit": {
+          "type": "circle",
+          "x": 2.0,
+          "y": 0.0,
+          "radius": 0.42
+        },
+        "zIndex": 5
+      },
+      {
+        "type": "circle",
+        "id": "vertex",
+        "x": 0.0,
+        "y": -4.0,
+        "radius": 0.14,
+        "style": {
+          "fill": "#B45309"
+        },
+        "elementId": "vertex",
+        "hit": {
+          "type": "circle",
+          "x": 0.0,
+          "y": -4.0,
+          "radius": 0.42
+        },
+        "zIndex": 5
+      },
+      {
+        "type": "text",
+        "id": "lbl-eq",
+        "x": 1.35,
+        "y": 5.6,
+        "text": "y = x² − 4",
+        "fontSize": 0.34,
+        "style": {
+          "fill": "#2563EB"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-vertex",
+        "x": 0.25,
+        "y": -4.0,
+        "text": "vertex (0, −4)",
+        "fontSize": 0.28,
+        "style": {
+          "fill": "#B45309"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-root-neg",
+        "x": -2.12,
+        "y": -0.4,
+        "text": "−2",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#0F172A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-root-pos",
+        "x": 1.85,
+        "y": -0.4,
+        "text": "2",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#0F172A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-x",
+        "x": 4.15,
+        "y": -0.45,
+        "text": "x",
+        "fontSize": 0.32,
+        "style": {
+          "fill": "#94A3B8"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-y",
+        "x": 0.15,
+        "y": 6.75,
+        "text": "y",
+        "fontSize": 0.32,
+        "style": {
+          "fill": "#94A3B8"
+        }
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "parabola",
+      "label": "Parabola",
+      "explanationId": "exp_parabola"
+    },
+    {
+      "id": "root-a",
+      "label": "First root",
+      "explanationId": "exp_root_a"
+    },
+    {
+      "id": "root-b",
+      "label": "Second root",
+      "explanationId": "exp_root_b"
+    },
+    {
+      "id": "vertex",
+      "label": "Vertex",
+      "explanationId": "exp_vertex"
+    }
+  ],
+  "explanations": [
+    {
+      "id": "exp_parabola",
+      "title": "The graph of y = x² − 4",
+      "body": "This is a parabola opening upwards. It is the graph of the quadratic function y = x² − 4, shifted down by 4 from the basic parabola y = x².",
+      "relatedElements": [
+        "vertex",
+        "root-a",
+        "root-b"
+      ],
+      "keyTerms": [
+        {
+          "term": "parabola",
+          "explanationId": "exp_root_a"
+        }
+      ],
+      "childTopics": [
+        {
+          "topic": "shifting quadratic graphs",
+          "subject": "mathematics"
+        }
+      ]
+    },
+    {
+      "id": "exp_root_a",
+      "title": "First root at x = −2",
+      "body": "Substituting x = −2 gives y = (−2)² − 4 = 0, so the graph crosses the x-axis here. A value of x where y = 0 is called a root or zero of the function.",
+      "relatedElements": [
+        "root-b",
+        "vertex"
+      ]
+    },
+    {
+      "id": "exp_root_b",
+      "title": "Second root at x = 2",
+      "body": "Substituting x = 2 gives y = 2² − 4 = 0. By symmetry the two roots sit at x = −2 and x = 2, equidistant from the axis of symmetry x = 0.",
+      "relatedElements": [
+        "root-a"
+      ]
+    },
+    {
+      "id": "exp_vertex",
+      "title": "The vertex",
+      "body": "The vertex is the lowest point of this parabola, at (0, −4). It lies on the axis of symmetry, midway between the two roots.",
+      "relatedElements": [
+        "root-a",
+        "root-b"
+      ]
+    }
+  ]
+}

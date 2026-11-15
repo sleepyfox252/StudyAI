@@ -1,0 +1,1820 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_electric_field",
+  "meta": {
+    "title": "Field of two opposite charges",
+    "subject": "physics",
+    "topic": "electric fields",
+    "locale": "en",
+    "difficulty": 3
+  },
+  "viewport": {
+    "worldBounds": {
+      "x": -4.0,
+      "y": -3.0,
+      "width": 8.0,
+      "height": 6.0
+    },
+    "yUp": true,
+    "background": "#F8FAFC"
+  },
+  "root": {
+    "type": "group",
+    "id": "scene",
+    "children": [
+      {
+        "type": "group",
+        "id": "field-lines",
+        "children": [
+          {
+            "type": "line",
+            "id": "field-0-1",
+            "x1": -1.6,
+            "y1": -0.36,
+            "x2": -1.4222,
+            "y2": -0.6014,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-2",
+            "x1": -1.4222,
+            "y1": -0.6014,
+            "x2": -1.2444,
+            "y2": -0.8143,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-3",
+            "x1": -1.2444,
+            "y1": -0.8143,
+            "x2": -1.0667,
+            "y2": -0.9989,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-4",
+            "x1": -1.0667,
+            "y1": -0.9989,
+            "x2": -0.8889,
+            "y2": -1.1551,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-5",
+            "x1": -0.8889,
+            "y1": -1.1551,
+            "x2": -0.7111,
+            "y2": -1.2828,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-6",
+            "x1": -0.7111,
+            "y1": -1.2828,
+            "x2": -0.5333,
+            "y2": -1.3822,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-7",
+            "x1": -0.5333,
+            "y1": -1.3822,
+            "x2": -0.3556,
+            "y2": -1.4532,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-8",
+            "x1": -0.3556,
+            "y1": -1.4532,
+            "x2": -0.1778,
+            "y2": -1.4958,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-9",
+            "x1": -0.1778,
+            "y1": -1.4958,
+            "x2": 0.0,
+            "y2": -1.51,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-10",
+            "x1": 0.0,
+            "y1": -1.51,
+            "x2": 0.1778,
+            "y2": -1.4958,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-11",
+            "x1": 0.1778,
+            "y1": -1.4958,
+            "x2": 0.3556,
+            "y2": -1.4532,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-12",
+            "x1": 0.3556,
+            "y1": -1.4532,
+            "x2": 0.5333,
+            "y2": -1.3822,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-13",
+            "x1": 0.5333,
+            "y1": -1.3822,
+            "x2": 0.7111,
+            "y2": -1.2828,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-14",
+            "x1": 0.7111,
+            "y1": -1.2828,
+            "x2": 0.8889,
+            "y2": -1.1551,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-15",
+            "x1": 0.8889,
+            "y1": -1.1551,
+            "x2": 1.0667,
+            "y2": -0.9989,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-16",
+            "x1": 1.0667,
+            "y1": -0.9989,
+            "x2": 1.2444,
+            "y2": -0.8143,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-17",
+            "x1": 1.2444,
+            "y1": -0.8143,
+            "x2": 1.4222,
+            "y2": -0.6014,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-0-18",
+            "x1": 1.4222,
+            "y1": -0.6014,
+            "x2": 1.6,
+            "y2": -0.36,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-1",
+            "x1": -1.42,
+            "y1": -0.3118,
+            "x2": -1.2622,
+            "y2": -0.5146,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-2",
+            "x1": -1.2622,
+            "y1": -0.5146,
+            "x2": -1.1044,
+            "y2": -0.6937,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-3",
+            "x1": -1.1044,
+            "y1": -0.6937,
+            "x2": -0.9467,
+            "y2": -0.8488,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-4",
+            "x1": -0.9467,
+            "y1": -0.8488,
+            "x2": -0.7889,
+            "y2": -0.9801,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-5",
+            "x1": -0.7889,
+            "y1": -0.9801,
+            "x2": -0.6311,
+            "y2": -1.0875,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-6",
+            "x1": -0.6311,
+            "y1": -1.0875,
+            "x2": -0.4733,
+            "y2": -1.171,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-7",
+            "x1": -0.4733,
+            "y1": -1.171,
+            "x2": -0.3156,
+            "y2": -1.2307,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-8",
+            "x1": -0.3156,
+            "y1": -1.2307,
+            "x2": -0.1578,
+            "y2": -1.2665,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-9",
+            "x1": -0.1578,
+            "y1": -1.2665,
+            "x2": -0.0,
+            "y2": -1.2784,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-10",
+            "x1": -0.0,
+            "y1": -1.2784,
+            "x2": 0.1578,
+            "y2": -1.2665,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-11",
+            "x1": 0.1578,
+            "y1": -1.2665,
+            "x2": 0.3156,
+            "y2": -1.2307,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-12",
+            "x1": 0.3156,
+            "y1": -1.2307,
+            "x2": 0.4733,
+            "y2": -1.171,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-13",
+            "x1": 0.4733,
+            "y1": -1.171,
+            "x2": 0.6311,
+            "y2": -1.0875,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-14",
+            "x1": 0.6311,
+            "y1": -1.0875,
+            "x2": 0.7889,
+            "y2": -0.9801,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-15",
+            "x1": 0.7889,
+            "y1": -0.9801,
+            "x2": 0.9467,
+            "y2": -0.8488,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-16",
+            "x1": 0.9467,
+            "y1": -0.8488,
+            "x2": 1.1044,
+            "y2": -0.6937,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-17",
+            "x1": 1.1044,
+            "y1": -0.6937,
+            "x2": 1.2622,
+            "y2": -0.5146,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-1-18",
+            "x1": 1.2622,
+            "y1": -0.5146,
+            "x2": 1.42,
+            "y2": -0.3118,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-1",
+            "x1": -1.2882,
+            "y1": -0.18,
+            "x2": -1.1451,
+            "y2": -0.3444,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-2",
+            "x1": -1.1451,
+            "y1": -0.3444,
+            "x2": -1.002,
+            "y2": -0.4895,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-3",
+            "x1": -1.002,
+            "y1": -0.4895,
+            "x2": -0.8588,
+            "y2": -0.6152,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-4",
+            "x1": -0.8588,
+            "y1": -0.6152,
+            "x2": -0.7157,
+            "y2": -0.7216,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-5",
+            "x1": -0.7157,
+            "y1": -0.7216,
+            "x2": -0.5725,
+            "y2": -0.8086,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-6",
+            "x1": -0.5725,
+            "y1": -0.8086,
+            "x2": -0.4294,
+            "y2": -0.8763,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-7",
+            "x1": -0.4294,
+            "y1": -0.8763,
+            "x2": -0.2863,
+            "y2": -0.9247,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-8",
+            "x1": -0.2863,
+            "y1": -0.9247,
+            "x2": -0.1431,
+            "y2": -0.9537,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-9",
+            "x1": -0.1431,
+            "y1": -0.9537,
+            "x2": 0.0,
+            "y2": -0.9633,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-10",
+            "x1": 0.0,
+            "y1": -0.9633,
+            "x2": 0.1431,
+            "y2": -0.9537,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-11",
+            "x1": 0.1431,
+            "y1": -0.9537,
+            "x2": 0.2863,
+            "y2": -0.9247,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-12",
+            "x1": 0.2863,
+            "y1": -0.9247,
+            "x2": 0.4294,
+            "y2": -0.8763,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-13",
+            "x1": 0.4294,
+            "y1": -0.8763,
+            "x2": 0.5725,
+            "y2": -0.8086,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-14",
+            "x1": 0.5725,
+            "y1": -0.8086,
+            "x2": 0.7157,
+            "y2": -0.7216,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-15",
+            "x1": 0.7157,
+            "y1": -0.7216,
+            "x2": 0.8588,
+            "y2": -0.6152,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-16",
+            "x1": 0.8588,
+            "y1": -0.6152,
+            "x2": 1.002,
+            "y2": -0.4895,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-17",
+            "x1": 1.002,
+            "y1": -0.4895,
+            "x2": 1.1451,
+            "y2": -0.3444,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-2-18",
+            "x1": 1.1451,
+            "y1": -0.3444,
+            "x2": 1.2882,
+            "y2": -0.18,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-1",
+            "x1": -1.24,
+            "y1": 0.0,
+            "x2": -1.1022,
+            "y2": 0.1679,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-2",
+            "x1": -1.1022,
+            "y1": 0.1679,
+            "x2": -0.9644,
+            "y2": 0.316,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-3",
+            "x1": -0.9644,
+            "y1": 0.316,
+            "x2": -0.8267,
+            "y2": 0.4444,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-4",
+            "x1": -0.8267,
+            "y1": 0.4444,
+            "x2": -0.6889,
+            "y2": 0.5531,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-5",
+            "x1": -0.6889,
+            "y1": 0.5531,
+            "x2": -0.5511,
+            "y2": 0.642,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-6",
+            "x1": -0.5511,
+            "y1": 0.642,
+            "x2": -0.4133,
+            "y2": 0.7111,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-7",
+            "x1": -0.4133,
+            "y1": 0.7111,
+            "x2": -0.2756,
+            "y2": 0.7605,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-8",
+            "x1": -0.2756,
+            "y1": 0.7605,
+            "x2": -0.1378,
+            "y2": 0.7901,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-9",
+            "x1": -0.1378,
+            "y1": 0.7901,
+            "x2": 0.0,
+            "y2": 0.8,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-10",
+            "x1": 0.0,
+            "y1": 0.8,
+            "x2": 0.1378,
+            "y2": 0.7901,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-11",
+            "x1": 0.1378,
+            "y1": 0.7901,
+            "x2": 0.2756,
+            "y2": 0.7605,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-12",
+            "x1": 0.2756,
+            "y1": 0.7605,
+            "x2": 0.4133,
+            "y2": 0.7111,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-13",
+            "x1": 0.4133,
+            "y1": 0.7111,
+            "x2": 0.5511,
+            "y2": 0.642,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-14",
+            "x1": 0.5511,
+            "y1": 0.642,
+            "x2": 0.6889,
+            "y2": 0.5531,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-15",
+            "x1": 0.6889,
+            "y1": 0.5531,
+            "x2": 0.8267,
+            "y2": 0.4444,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-16",
+            "x1": 0.8267,
+            "y1": 0.4444,
+            "x2": 0.9644,
+            "y2": 0.316,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-17",
+            "x1": 0.9644,
+            "y1": 0.316,
+            "x2": 1.1022,
+            "y2": 0.1679,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-3-18",
+            "x1": 1.1022,
+            "y1": 0.1679,
+            "x2": 1.24,
+            "y2": 0.0,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-1",
+            "x1": -1.2882,
+            "y1": 0.18,
+            "x2": -1.1451,
+            "y2": 0.3864,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-2",
+            "x1": -1.1451,
+            "y1": 0.3864,
+            "x2": -1.002,
+            "y2": 0.5685,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-3",
+            "x1": -1.002,
+            "y1": 0.5685,
+            "x2": -0.8588,
+            "y2": 0.7263,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-4",
+            "x1": -0.8588,
+            "y1": 0.7263,
+            "x2": -0.7157,
+            "y2": 0.8598,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-5",
+            "x1": -0.7157,
+            "y1": 0.8598,
+            "x2": -0.5725,
+            "y2": 0.9691,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-6",
+            "x1": -0.5725,
+            "y1": 0.9691,
+            "x2": -0.4294,
+            "y2": 1.0541,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-7",
+            "x1": -0.4294,
+            "y1": 1.0541,
+            "x2": -0.2863,
+            "y2": 1.1148,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-8",
+            "x1": -0.2863,
+            "y1": 1.1148,
+            "x2": -0.1431,
+            "y2": 1.1512,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-9",
+            "x1": -0.1431,
+            "y1": 1.1512,
+            "x2": 0.0,
+            "y2": 1.1633,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-10",
+            "x1": 0.0,
+            "y1": 1.1633,
+            "x2": 0.1431,
+            "y2": 1.1512,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-11",
+            "x1": 0.1431,
+            "y1": 1.1512,
+            "x2": 0.2863,
+            "y2": 1.1148,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-12",
+            "x1": 0.2863,
+            "y1": 1.1148,
+            "x2": 0.4294,
+            "y2": 1.0541,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-13",
+            "x1": 0.4294,
+            "y1": 1.0541,
+            "x2": 0.5725,
+            "y2": 0.9691,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-14",
+            "x1": 0.5725,
+            "y1": 0.9691,
+            "x2": 0.7157,
+            "y2": 0.8598,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-15",
+            "x1": 0.7157,
+            "y1": 0.8598,
+            "x2": 0.8588,
+            "y2": 0.7263,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-16",
+            "x1": 0.8588,
+            "y1": 0.7263,
+            "x2": 1.002,
+            "y2": 0.5685,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-17",
+            "x1": 1.002,
+            "y1": 0.5685,
+            "x2": 1.1451,
+            "y2": 0.3864,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-4-18",
+            "x1": 1.1451,
+            "y1": 0.3864,
+            "x2": 1.2882,
+            "y2": 0.18,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-1",
+            "x1": -1.42,
+            "y1": 0.3118,
+            "x2": -1.2622,
+            "y2": 0.5566,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-2",
+            "x1": -1.2622,
+            "y1": 0.5566,
+            "x2": -1.1044,
+            "y2": 0.7727,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-3",
+            "x1": -1.1044,
+            "y1": 0.7727,
+            "x2": -0.9467,
+            "y2": 0.9599,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-4",
+            "x1": -0.9467,
+            "y1": 0.9599,
+            "x2": -0.7889,
+            "y2": 1.1184,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-5",
+            "x1": -0.7889,
+            "y1": 1.1184,
+            "x2": -0.6311,
+            "y2": 1.248,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-6",
+            "x1": -0.6311,
+            "y1": 1.248,
+            "x2": -0.4733,
+            "y2": 1.3488,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-7",
+            "x1": -0.4733,
+            "y1": 1.3488,
+            "x2": -0.3156,
+            "y2": 1.4208,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-8",
+            "x1": -0.3156,
+            "y1": 1.4208,
+            "x2": -0.1578,
+            "y2": 1.464,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-9",
+            "x1": -0.1578,
+            "y1": 1.464,
+            "x2": 0.0,
+            "y2": 1.4784,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-10",
+            "x1": 0.0,
+            "y1": 1.4784,
+            "x2": 0.1578,
+            "y2": 1.464,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-11",
+            "x1": 0.1578,
+            "y1": 1.464,
+            "x2": 0.3156,
+            "y2": 1.4208,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-12",
+            "x1": 0.3156,
+            "y1": 1.4208,
+            "x2": 0.4733,
+            "y2": 1.3488,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-13",
+            "x1": 0.4733,
+            "y1": 1.3488,
+            "x2": 0.6311,
+            "y2": 1.248,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-14",
+            "x1": 0.6311,
+            "y1": 1.248,
+            "x2": 0.7889,
+            "y2": 1.1184,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-15",
+            "x1": 0.7889,
+            "y1": 1.1184,
+            "x2": 0.9467,
+            "y2": 0.9599,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-16",
+            "x1": 0.9467,
+            "y1": 0.9599,
+            "x2": 1.1044,
+            "y2": 0.7727,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-17",
+            "x1": 1.1044,
+            "y1": 0.7727,
+            "x2": 1.2622,
+            "y2": 0.5566,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-5-18",
+            "x1": 1.2622,
+            "y1": 0.5566,
+            "x2": 1.42,
+            "y2": 0.3118,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-1",
+            "x1": -1.6,
+            "y1": 0.36,
+            "x2": -1.4222,
+            "y2": 0.6433,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-2",
+            "x1": -1.4222,
+            "y1": 0.6433,
+            "x2": -1.2444,
+            "y2": 0.8933,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-3",
+            "x1": -1.2444,
+            "y1": 0.8933,
+            "x2": -1.0667,
+            "y2": 1.11,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-4",
+            "x1": -1.0667,
+            "y1": 1.11,
+            "x2": -0.8889,
+            "y2": 1.2933,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-5",
+            "x1": -0.8889,
+            "y1": 1.2933,
+            "x2": -0.7111,
+            "y2": 1.4433,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-6",
+            "x1": -0.7111,
+            "y1": 1.4433,
+            "x2": -0.5333,
+            "y2": 1.56,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-7",
+            "x1": -0.5333,
+            "y1": 1.56,
+            "x2": -0.3556,
+            "y2": 1.6433,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-8",
+            "x1": -0.3556,
+            "y1": 1.6433,
+            "x2": -0.1778,
+            "y2": 1.6933,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-9",
+            "x1": -0.1778,
+            "y1": 1.6933,
+            "x2": 0.0,
+            "y2": 1.71,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-10",
+            "x1": 0.0,
+            "y1": 1.71,
+            "x2": 0.1778,
+            "y2": 1.6933,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-11",
+            "x1": 0.1778,
+            "y1": 1.6933,
+            "x2": 0.3556,
+            "y2": 1.6433,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-12",
+            "x1": 0.3556,
+            "y1": 1.6433,
+            "x2": 0.5333,
+            "y2": 1.56,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-13",
+            "x1": 0.5333,
+            "y1": 1.56,
+            "x2": 0.7111,
+            "y2": 1.4433,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-14",
+            "x1": 0.7111,
+            "y1": 1.4433,
+            "x2": 0.8889,
+            "y2": 1.2933,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-15",
+            "x1": 0.8889,
+            "y1": 1.2933,
+            "x2": 1.0667,
+            "y2": 1.11,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-16",
+            "x1": 1.0667,
+            "y1": 1.11,
+            "x2": 1.2444,
+            "y2": 0.8933,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-17",
+            "x1": 1.2444,
+            "y1": 0.8933,
+            "x2": 1.4222,
+            "y2": 0.6433,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-6-18",
+            "x1": 1.4222,
+            "y1": 0.6433,
+            "x2": 1.6,
+            "y2": 0.36,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.028
+            },
+            "opacity": 0.75
+          },
+          {
+            "type": "line",
+            "id": "field-axis",
+            "x1": -1.24,
+            "y1": 0.0,
+            "x2": 1.24,
+            "y2": 0.0,
+            "style": {
+              "stroke": "#0E7490",
+              "strokeWidth": 0.03
+            },
+            "opacity": 0.75
+          }
+        ],
+        "elementId": "field-lines"
+      },
+      {
+        "type": "circle",
+        "id": "charge-pos",
+        "x": -1.6,
+        "y": 0.0,
+        "radius": 0.36,
+        "style": {
+          "fill": "#DC2626"
+        },
+        "elementId": "positive-charge",
+        "hit": {
+          "type": "circle",
+          "x": -1.6,
+          "y": 0.0,
+          "radius": 0.62
+        },
+        "zIndex": 5
+      },
+      {
+        "type": "circle",
+        "id": "charge-neg",
+        "x": 1.6,
+        "y": 0.0,
+        "radius": 0.36,
+        "style": {
+          "fill": "#2563EB"
+        },
+        "elementId": "negative-charge",
+        "hit": {
+          "type": "circle",
+          "x": 1.6,
+          "y": 0.0,
+          "radius": 0.62
+        },
+        "zIndex": 5
+      },
+      {
+        "type": "text",
+        "id": "lbl-plus",
+        "x": -1.7747,
+        "y": -0.2047,
+        "text": "+",
+        "fontSize": 0.62,
+        "style": {
+          "fill": "#FFFFFF"
+        },
+        "elementId": "positive-charge",
+        "zIndex": 6
+      },
+      {
+        "type": "text",
+        "id": "lbl-minus",
+        "x": 1.4227,
+        "y": -0.2201,
+        "text": "−",
+        "fontSize": 0.62,
+        "style": {
+          "fill": "#FFFFFF"
+        },
+        "elementId": "negative-charge",
+        "zIndex": 6
+      },
+      {
+        "type": "text",
+        "id": "lbl-title",
+        "x": -3.8,
+        "y": 2.65,
+        "text": "Electric field of two opposite charges",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#0F172A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-note",
+        "x": -3.8,
+        "y": -2.55,
+        "text": "Illustrative sketch — not a numerical simulation",
+        "fontSize": 0.22,
+        "style": {
+          "fill": "#94A3B8"
+        }
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "positive-charge",
+      "label": "Positive charge",
+      "explanationId": "exp_positive"
+    },
+    {
+      "id": "negative-charge",
+      "label": "Negative charge",
+      "explanationId": "exp_negative"
+    },
+    {
+      "id": "field-lines",
+      "label": "Field lines",
+      "explanationId": "exp_field_lines"
+    }
+  ],
+  "explanations": [
+    {
+      "id": "exp_positive",
+      "title": "Positive charge",
+      "body": "A positive charge is a source of the electric field: field lines point away from it.",
+      "relatedElements": [
+        "negative-charge",
+        "field-lines"
+      ]
+    },
+    {
+      "id": "exp_negative",
+      "title": "Negative charge",
+      "body": "A negative charge is a sink of the electric field: field lines point towards it.",
+      "relatedElements": [
+        "positive-charge",
+        "field-lines"
+      ]
+    },
+    {
+      "id": "exp_field_lines",
+      "title": "Field lines (illustrative)",
+      "body": "The curves sketch the direction of the electric field from the positive to the negative charge. This is a hand-drawn illustration of the pattern, not a numerical simulation or a measurement.",
+      "relatedElements": [
+        "positive-charge",
+        "negative-charge"
+      ],
+      "keyTerms": [
+        {
+          "term": "electric field"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_missing_field",
+  "meta": { "title": "Missing viewport", "subject": "mathematics", "topic": "test" },
+  "root": { "type": "group", "id": "g" }
+}

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_vectors",
+  "meta": {
+    "title": "Adding two vectors",
+    "subject": "physics",
+    "topic": "vectors",
+    "locale": "en",
+    "difficulty": 2
+  },
+  "viewport": {
+    "worldBounds": {
+      "x": -1.0,
+      "y": -1.0,
+      "width": 6.5,
+      "height": 6.5
+    },
+    "yUp": true,
+    "background": "#F8FAFC"
+  },
+  "root": {
+    "type": "group",
+    "id": "scene",
+    "children": [
+      {
+        "type": "component",
+        "id": "axes",
+        "component": "cartesian-axes",
+        "params": {
+          "xMin": 0.0,
+          "xMax": 5.0,
+          "yMin": 0.0,
+          "yMax": 5.0,
+          "step": 1.0,
+          "grid": true,
+          "labels": true
+        }
+      },
+      {
+        "type": "line",
+        "id": "vec-a",
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 3.0,
+        "y2": 1.0,
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 0.07
+        },
+        "elementId": "vector-a",
+        "hit": {
+          "type": "circle",
+          "x": 3.0,
+          "y": 1.0,
+          "radius": 0.55
+        },
+        "zIndex": 3
+      },
+      {
+        "type": "line",
+        "id": "vec-b",
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 3.0,
+        "style": {
+          "stroke": "#16A34A",
+          "strokeWidth": 0.07
+        },
+        "elementId": "vector-b",
+        "hit": {
+          "type": "circle",
+          "x": 1.0,
+          "y": 3.0,
+          "radius": 0.55
+        },
+        "zIndex": 3
+      },
+      {
+        "type": "line",
+        "id": "ghost-a",
+        "x1": 3.0,
+        "y1": 1.0,
+        "x2": 4.0,
+        "y2": 4.0,
+        "style": {
+          "stroke": "#E2E8F0",
+          "strokeWidth": 0.03
+        },
+        "opacity": 0.9
+      },
+      {
+        "type": "line",
+        "id": "ghost-b",
+        "x1": 1.0,
+        "y1": 3.0,
+        "x2": 4.0,
+        "y2": 4.0,
+        "style": {
+          "stroke": "#E2E8F0",
+          "strokeWidth": 0.03
+        },
+        "opacity": 0.9
+      },
+      {
+        "type": "line",
+        "id": "vec-sum",
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 4.0,
+        "y2": 4.0,
+        "style": {
+          "stroke": "#7C3AED",
+          "strokeWidth": 0.08
+        },
+        "elementId": "resultant",
+        "hit": {
+          "type": "circle",
+          "x": 4.0,
+          "y": 4.0,
+          "radius": 0.6
+        },
+        "zIndex": 4
+      },
+      {
+        "type": "circle",
+        "id": "origin",
+        "x": 0.0,
+        "y": 0.0,
+        "radius": 0.08,
+        "style": {
+          "fill": "#0F172A"
+        },
+        "zIndex": 6
+      },
+      {
+        "type": "line",
+        "id": "ah-a-0",
+        "x1": 3.0,
+        "y1": 1.0,
+        "x2": 2.7458,
+        "y2": 0.7594,
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 0.06
+        }
+      },
+      {
+        "type": "line",
+        "id": "ah-a-1",
+        "x1": 3.0,
+        "y1": 1.0,
+        "x2": 2.6523,
+        "y2": 1.04,
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 0.06
+        }
+      },
+      {
+        "type": "line",
+        "id": "ah-b-0",
+        "x1": 1.0,
+        "y1": 3.0,
+        "x2": 1.04,
+        "y2": 2.6523,
+        "style": {
+          "stroke": "#16A34A",
+          "strokeWidth": 0.06
+        }
+      },
+      {
+        "type": "line",
+        "id": "ah-b-1",
+        "x1": 1.0,
+        "y1": 3.0,
+        "x2": 0.7594,
+        "y2": 2.7458,
+        "style": {
+          "stroke": "#16A34A",
+          "strokeWidth": 0.06
+        }
+      },
+      {
+        "type": "line",
+        "id": "ah-s-0",
+        "x1": 4.0,
+        "y1": 4.0,
+        "x2": 3.8803,
+        "y2": 3.6711,
+        "style": {
+          "stroke": "#7C3AED",
+          "strokeWidth": 0.07
+        }
+      },
+      {
+        "type": "line",
+        "id": "ah-s-1",
+        "x1": 4.0,
+        "y1": 4.0,
+        "x2": 3.6711,
+        "y2": 3.8803,
+        "style": {
+          "stroke": "#7C3AED",
+          "strokeWidth": 0.07
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-a",
+        "x": 3.05,
+        "y": 1.2,
+        "text": "a",
+        "fontSize": 0.34,
+        "style": {
+          "fill": "#2563EB"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-b",
+        "x": 1.2,
+        "y": 3.0,
+        "text": "b",
+        "fontSize": 0.34,
+        "style": {
+          "fill": "#16A34A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-s",
+        "x": 4.1,
+        "y": 4.2,
+        "text": "a + b",
+        "fontSize": 0.34,
+        "style": {
+          "fill": "#7C3AED"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-o",
+        "x": -0.35,
+        "y": -0.35,
+        "text": "O",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#94A3B8"
+        }
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "vector-a",
+      "label": "Vector a",
+      "explanationId": "exp_vec_a"
+    },
+    {
+      "id": "vector-b",
+      "label": "Vector b",
+      "explanationId": "exp_vec_b"
+    },
+    {
+      "id": "resultant",
+      "label": "Resultant a + b",
+      "explanationId": "exp_resultant"
+    }
+  ],
+  "explanations": [
+    {
+      "id": "exp_vec_a",
+      "title": "Vector a",
+      "body": "Vector a has components (3, 1): 3 units right and 1 unit up. Its length is √(3² + 1²) ≈ 3.16.",
+      "relatedElements": [
+        "vector-b",
+        "resultant"
+      ]
+    },
+    {
+      "id": "exp_vec_b",
+      "title": "Vector b",
+      "body": "Vector b has components (1, 3): 1 unit right and 3 units up. Its length is √(1² + 3²) ≈ 3.16.",
+      "relatedElements": [
+        "vector-a",
+        "resultant"
+      ]
+    },
+    {
+      "id": "exp_resultant",
+      "title": "Resultant a + b",
+      "body": "Adding tip-to-tail, the resultant is a + b = (3 + 1, 1 + 3) = (4, 4). The faint lines complete the parallelogram.",
+      "relatedElements": [
+        "vector-a",
+        "vector-b"
+      ],
+      "keyTerms": [
+        {
+          "term": "resultant vector"
+        }
+      ]
+    }
+  ]
+}

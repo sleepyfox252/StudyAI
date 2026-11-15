@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_bad_ref",
+  "meta": { "title": "Dangling reference", "subject": "chemistry", "topic": "test" },
+  "viewport": { "worldBounds": { "x": 0.0, "y": 0.0, "width": 1.0, "height": 1.0 } },
+  "root": {
+    "type": "circle",
+    "id": "dot",
+    "x": 0.0,
+    "y": 0.0,
+    "radius": 0.1,
+    "elementId": "missing-element"
+  },
+  "elements": [
+    { "id": "present", "label": "Present", "explanationId": "exp_present" }
+  ],
+  "explanations": [
+    { "id": "exp_present", "title": "Present", "body": "Body." }
+  ]
+}

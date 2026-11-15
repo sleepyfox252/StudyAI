@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_circle",
+  "meta": {
+    "title": "Parts of a circle",
+    "subject": "mathematics",
+    "topic": "circles",
+    "locale": "en",
+    "difficulty": 1
+  },
+  "viewport": {
+    "worldBounds": {
+      "x": -3.4,
+      "y": -3.4,
+      "width": 6.8,
+      "height": 6.8
+    },
+    "yUp": true,
+    "background": "#F8FAFC"
+  },
+  "root": {
+    "type": "group",
+    "id": "scene",
+    "children": [
+      {
+        "type": "component",
+        "id": "axes",
+        "component": "cartesian-axes",
+        "params": {
+          "xMin": -3.0,
+          "xMax": 3.0,
+          "yMin": -3.0,
+          "yMax": 3.0,
+          "step": 1.0,
+          "grid": true,
+          "labels": true
+        }
+      },
+      {
+        "type": "circle",
+        "id": "circumference",
+        "x": 0.0,
+        "y": 0.0,
+        "radius": 2.4,
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 0.05
+        }
+      },
+      {
+        "type": "line",
+        "id": "radius",
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 2.4,
+        "y2": 0.0,
+        "style": {
+          "stroke": "#B45309",
+          "strokeWidth": 0.05
+        },
+        "elementId": "radius",
+        "hit": {
+          "type": "rect",
+          "x": 0.0,
+          "y": -0.14,
+          "width": 2.4,
+          "height": 0.28
+        },
+        "zIndex": 3
+      },
+      {
+        "type": "line",
+        "id": "diameter",
+        "x1": 0.0,
+        "y1": -2.4,
+        "x2": 0.0,
+        "y2": 2.4,
+        "style": {
+          "stroke": "#16A34A",
+          "strokeWidth": 0.05
+        },
+        "elementId": "diameter",
+        "hit": {
+          "type": "rect",
+          "x": -0.14,
+          "y": -2.4,
+          "width": 0.28,
+          "height": 4.8
+        },
+        "zIndex": 2
+      },
+      {
+        "type": "circle",
+        "id": "center",
+        "x": 0.0,
+        "y": 0.0,
+        "radius": 0.1,
+        "style": {
+          "fill": "#0F172A"
+        },
+        "elementId": "center",
+        "hit": {
+          "type": "circle",
+          "x": 0.0,
+          "y": 0.0,
+          "radius": 0.35
+        },
+        "zIndex": 6
+      },
+      {
+        "type": "text",
+        "id": "lbl-radius",
+        "x": 0.95,
+        "y": 0.3,
+        "text": "r = 2.4",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#B45309"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-diameter",
+        "x": 0.15,
+        "y": 2.65,
+        "text": "d = 4.8",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#16A34A"
+        }
+      },
+      {
+        "type": "text",
+        "id": "lbl-circ",
+        "x": -2.9,
+        "y": 3.1,
+        "text": "C = 2πr ≈ 15.1",
+        "fontSize": 0.3,
+        "style": {
+          "fill": "#2563EB"
+        },
+        "elementId": "circumference",
+        "hit": {
+          "type": "rect",
+          "x": -2.95,
+          "y": 2.8,
+          "width": 3.2,
+          "height": 0.5
+        }
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "center",
+      "label": "Centre",
+      "explanationId": "exp_center"
+    },
+    {
+      "id": "radius",
+      "label": "Radius",
+      "explanationId": "exp_radius"
+    },
+    {
+      "id": "diameter",
+      "label": "Diameter",
+      "explanationId": "exp_diameter"
+    },
+    {
+      "id": "circumference",
+      "label": "Circumference",
+      "explanationId": "exp_circumference"
+    }
+  ],
+  "explanations": [
+    {
+      "id": "exp_center",
+      "title": "Centre",
+      "body": "Every point on the circle is the same distance from the centre. Here the centre is the origin (0, 0).",
+      "relatedElements": [
+        "radius",
+        "diameter"
+      ]
+    },
+    {
+      "id": "exp_radius",
+      "title": "Radius r = 2.4",
+      "body": "The radius is the distance from the centre to any point on the circle. Here r = 2.4.",
+      "relatedElements": [
+        "center",
+        "diameter"
+      ]
+    },
+    {
+      "id": "exp_diameter",
+      "title": "Diameter d = 4.8",
+      "body": "The diameter passes through the centre and equals twice the radius: d = 2r = 4.8.",
+      "relatedElements": [
+        "radius",
+        "center"
+      ]
+    },
+    {
+      "id": "exp_circumference",
+      "title": "Circumference C = 2πr",
+      "body": "The circumference is the distance around the circle: C = 2πr ≈ 2 × 3.14 × 2.4 ≈ 15.1.",
+      "relatedElements": [
+        "radius"
+      ],
+      "keyTerms": [
+        {
+          "term": "π (pi)"
+        }
+      ]
+    }
+  ]
+}

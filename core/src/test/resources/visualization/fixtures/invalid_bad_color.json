@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_bad_color",
+  "meta": { "title": "Bad color", "subject": "biology", "topic": "test" },
+  "viewport": { "worldBounds": { "x": 0.0, "y": 0.0, "width": 1.0, "height": 1.0 }, "background": "not-a-color" },
+  "root": {
+    "type": "rect",
+    "id": "box",
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1.0,
+    "height": 1.0,
+    "style": { "fill": "#12GG45" }
+  }
+}

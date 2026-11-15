@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_dup_nodes",
+  "meta": { "title": "Duplicates", "subject": "physics", "topic": "test" },
+  "viewport": { "worldBounds": { "x": 0.0, "y": 0.0, "width": 1.0, "height": 1.0 } },
+  "root": {
+    "type": "group",
+    "id": "g",
+    "children": [
+      { "type": "circle", "id": "same", "x": 0.0, "y": 0.0, "radius": 0.1 },
+      { "type": "rect", "id": "same", "x": 0.0, "y": 0.0, "width": 0.1, "height": 0.1 }
+    ]
+  }
+}

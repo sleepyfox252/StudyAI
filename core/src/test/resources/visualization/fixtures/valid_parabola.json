@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0",
+  "id": "vis_parabola_roots",
+  "meta": {
+    "title": "Parabola and its roots",
+    "subject": "mathematics",
+    "topic": "quadratic equations",
+    "locale": "en",
+    "difficulty": 2
+  },
+  "viewport": {
+    "worldBounds": { "x": -5.0, "y": -2.0, "width": 10.0, "height": 8.0 },
+    "yUp": true,
+    "background": "#0B1020"
+  },
+  "root": {
+    "type": "group",
+    "id": "scene",
+    "children": [
+      {
+        "type": "component",
+        "id": "axes",
+        "component": "cartesian-axes",
+        "params": { "xMin": -5, "xMax": 5, "yMin": -2, "yMax": 6 }
+      },
+      {
+        "type": "component",
+        "id": "parabola",
+        "component": "function-plot",
+        "params": { "expression": "x^2 - 4", "color": "#4FC3F7" }
+      },
+      {
+        "type": "line",
+        "id": "x-axis",
+        "x1": -5.0,
+        "y1": 0.0,
+        "x2": 5.0,
+        "y2": 0.0,
+        "style": { "stroke": "#8892B0", "strokeWidth": 0.02 }
+      },
+      {
+        "type": "circle",
+        "id": "root-neg",
+        "x": -2.0,
+        "y": 0.0,
+        "radius": 0.15,
+        "elementId": "root-a",
+        "style": { "fill": "#FF6B6B" },
+        "hit": { "type": "circle", "x": -2.0, "y": 0.0, "radius": 0.4 },
+        "semantics": { "label": "First root at x = -2", "role": "button" }
+      },
+      {
+        "type": "circle",
+        "id": "root-pos",
+        "x": 2.0,
+        "y": 0.0,
+        "radius": 0.15,
+        "elementId": "root-b",
+        "style": { "fill": "#FF6B6B" },
+        "hit": { "type": "circle", "x": 2.0, "y": 0.0, "radius": 0.4 }
+      },
+      {
+        "type": "text",
+        "id": "label-vertex",
+        "x": 0.0,
+        "y": -0.5,
+        "text": "vertex",
+        "fontSize": 0.4,
+        "elementId": "vertex"
+      }
+    ]
+  },
+  "elements": [
+    { "id": "root-a", "label": "First root", "explanationId": "exp_root_a" },
+    { "id": "root-b", "label": "Second root", "explanationId": "exp_root_b" },
+    { "id": "vertex", "label": "Vertex", "explanationId": "exp_vertex" }
+  ],
+  "explanations": [
+    {
+      "id": "exp_root_a",
+      "title": "Why x = -2 is a root",
+      "body": "Substituting x = -2 gives f(-2) = (-2)^2 - 4 = 0.",
+      "relatedElements": ["root-b", "vertex"],
+      "keyTerms": [ { "term": "root", "explanationId": "exp_root_def" } ],
+      "childTopics": [ { "topic": "factoring quadratics", "subject": "mathematics" } ]
+    },
+    {
+      "id": "exp_root_b",
+      "title": "Why x = 2 is a root",
+      "body": "Substituting x = 2 gives f(2) = 4 - 4 = 0.",
+      "relatedElements": ["root-a"]
+    },
+    {
+      "id": "exp_vertex",
+      "title": "The vertex",
+      "body": "The parabola's minimum is at the vertex (0, -4).",
+      "keyTerms": [ { "term": "vertex" } ]
+    },
+    {
+      "id": "exp_root_def",
+      "title": "Root",
+      "body": "A root is a value of x for which the function equals zero."
+    }
+  ]
+}
